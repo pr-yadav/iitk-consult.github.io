@@ -17,6 +17,7 @@
     ================================================== -->
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/flickity.css">
     <link rel="stylesheet" href="css/main.css">
 
     <!-- script
@@ -193,7 +194,19 @@
         </div> <!-- end about-stats -->
 
     </section> <!-- end s-about -->
+    
+    <section>
 
+        <!-- Flickity HTML init -->
+        <div class="carousel js-flickity" data-flickity='{ "autoPlay": true }'>
+          <div class="carousel-cell"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="photo1" /></div>
+          <div class="carousel-cell"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="photo2" /></div>
+          <div class="carousel-cell"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="photo3" /></div>
+          <div class="carousel-cell"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="photo4" /></div>
+          <div class="carousel-cell"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="photo5" /></div>
+        </div>
+
+    </section>
 
     <!-- services
     ================================================== -->
@@ -448,6 +461,14 @@
                         <img src="images/75266196_442461246623157_1880644154602553344_n.jpg" width="100rem" alt="Author image" class="testimonials__avatar">
                         <p>Junior Undergraduate in the Department of Electrical Engineering, IIT Kanpur. Research internship experience in the field of machine learning and computer vision.</p>
                     </div> <!-- end testimonials__slide -->
+
+                    <div class="testimonials__slide">
+                        <div class="testimonials__header">
+                        Ayush Gupta
+                        </div>
+                        <img src="images/ayush-photo.jpg" width="100rem" alt="Author image" class="testimonials__avatar">
+                        <p>Junior Undergraduate in the Department of Mechanical Engineering, IIT Kanpur. Experienced in robotics, programming and machine learning.</p>
+                    </div> <!-- end testimonials__slide -->
     
                 </div> <!-- end testimonials__slider -->
 
@@ -593,9 +614,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!-- Java Script
     ================================================== -->
+    
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/flickity.pkgd.js"></script>
 
 </body>
 
