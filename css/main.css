@@ -52,12 +52,26 @@
  * =================================================================== */
 
 /* external css: flickity.css */
-
-/* external css: flickity.css */
-
 * { box-sizing: border-box; }
 
 body { font-family: sans-serif; }
+
+.carousel-caption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%
+}
+
+.caption {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  background: red;
+}
 
 .carousel {
   background: black;
@@ -65,7 +79,7 @@ body { font-family: sans-serif; }
 
 .carousel-cell {
   width: 70%;
-  height: 200px;
+  height: 100%;
   /* flex-box, center image in cell */
   display: -webkit-box;
   display: -webkit-flex;
@@ -102,7 +116,7 @@ body { font-family: sans-serif; }
 
 @media screen and ( min-width: 768px ) {
   .carousel-cell {
-    height: 400px;
+    height: 550px;
   }
 }
 
@@ -1302,6 +1316,12 @@ input::-moz-focus-inner {
 .light-gray {
   background-color: #f1f1f1;
 }
+
+.white {
+  background-color: #ffffff;
+}
+
+
 
 
 /* ------------------------------------------------------------------- 
