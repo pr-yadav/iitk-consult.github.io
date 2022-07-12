@@ -125,6 +125,11 @@ body { font-family: sans-serif; }
   }
 }
 
+/* ICG Logo */
+.site-logo {
+  margin-top: 50px;
+}
+
 /* buttons, no circle */
 .flickity-prev-next-button {
   width: 60px;
@@ -1734,8 +1739,8 @@ input::-moz-focus-inner {
     left: 30px;
   }
   .header-logo img {
-    width: 180px;
-    height: 34px;
+    width: 100px;
+    height: auto;
   }
 
   .header-menu-toggle {
@@ -1820,7 +1825,14 @@ input::-moz-focus-inner {
 }
 .home-content h1 {
   font-family: "domine-bold", sans-serif;
-  font-size: 9rem;
+  font-size: 7rem !important;
+  line-height: 1.1;
+  margin-top: 0;
+  color: #ffffff;
+}
+.Consulting_group_heading {
+  font-family: "domine-bold", sans-serif;
+  font-size: 5.5rem;
   line-height: 1.1;
   margin-top: 0;
   color: #ffffff;
